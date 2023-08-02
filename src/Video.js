@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import io from 'socket.io-client'
-import faker from "faker"
+//import faker from "faker"
 
 import {IconButton, Badge, Input, Button} from '@material-ui/core'
 import VideocamIcon from '@material-ui/icons/Videocam'
@@ -13,14 +13,14 @@ import CallEndIcon from '@material-ui/icons/CallEnd'
 import ChatIcon from '@material-ui/icons/Chat'
 
 import { message } from 'antd'
-import 'antd/dist/antd.css'
+//import 'antd/dist/antd.css'
 
 import { Row } from 'reactstrap'
 import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://video.sebastienbiollo.com' : "http://localhost:4001"
+const server_url = process.env.NODE_ENV === 'production' ? 'http://localhost:4001' : "http://localhost:4001"
 
 var connections = {}
 const peerConnectionConfig = {
@@ -52,7 +52,7 @@ class Video extends Component {
 			message: "",
 			newmessages: 0,
 			askForUsername: true,
-			username: faker.internet.userName(),
+			username: "alex1" //faker.internet.userName(),
 		}
 		connections = {}
 
