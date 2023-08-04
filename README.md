@@ -20,6 +20,32 @@ Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo
 - Screen sharing to present documents, slides, and more
 - Everyting is peer-to-peer thanks to webrtc
 
+### New Feature
+- Dark mode
+  
+<p align="center">
+  <img src="README-images\home.PNG" alt="Step2">
+</p>
+
+
+<p align="center">
+  <img src="README-images\video.PNG" alt="Step2">
+</p>
+<p align="center">
+  <img src="README-images\meet.PNG" alt="Step2">
+</p>
+
+<p align="center">
+  <img src="README-images\home-dark.PNG" alt="Step2">
+</p>
+
+<p align="center">
+  <img src="README-images\video-dark.PNG" alt="Step2">
+</p>
+
+<p align="center">
+  <img src="README-images\meet-dark.PNG" alt="Step2">
+</p>
 
 ### Local setup
 
